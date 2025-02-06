@@ -42,5 +42,65 @@ console.log(typeof function(){}); // Output: function
 Primitive Data Types: String, Number, Boolean, Undefined, Null, BigInt, Symbol
 Non-Primitive Data Types: Object, Array, Function
 এই হলো JavaScript-এর Data Types (ডাটা টাইপ) সম্পর্কে বিস্তারিত ব্যাখ্যা। 😊
- * 
+ *
  */
+
+
+//data types of javaScript
+
+
+//string
+
+const name = "minhazul abedin apon"
+
+console.log(name)
+
+//number
+
+const number = 1950374409
+
+console.log(number)
+
+//boolean 
+
+const isAponMuslim = true
+
+console.log(isAponMuslim)
+
+//undefined 
+
+const WhatTrue = undefined
+
+console.log(WhatTrue)
+
+//null 
+
+const weAreWhat = null
+
+console.log(weAreWhat)
+
+//function 
+
+let bangladesh = (a, b) => {
+    let X = a + b
+    console.log(X)
+}
+
+bangladesh(20, 30)
+
+//object
+
+const address = {
+
+    name: 'minhaz',
+    number: 1950374409,
+    country: 'jhenaidah',
+    company: 'toptal'
+
+}
+console.log(address.company, address.country, address.name, address.number)
+
+//array 
+const DoMath = [12, 234, 34, 35, 56, 3566, 35]
+
+console.log(DoMath)
