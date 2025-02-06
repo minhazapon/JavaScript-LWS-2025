@@ -128,4 +128,57 @@ console.log(typeof undefined); // "undefined"
 এই ছিল JavaScript-এর অপারেটর নিয়ে বাংলা ভাষায় একটি সহজ ব্যাখ্যা। যদি আরও জানতে চান, বলুন!
  */
 
+let nums = 10 + 10;
+
+let nums1 = 10 - 10;
+
+let nums3 = 10 * 10;
+
+let nums4 = 10 % 10;
+
+let nums5 = 20 / 20;
+
+let allNums = { nums, nums1, nums3, nums4, nums5 }
+
+console.log(allNums)
+
+let BigNumber = 100;
+
+if (BigNumber > 200) {
+    console.log('code is right')
+} else {
+
+    console.log('code is not right')
+}
+
+if (BigNumber > 70) {
+    console.log('javaScript is the best programming language in this world')
+} else {
+    console.log('not okay')
+}
+
+if (BigNumber = 70) {
+    console.log('Good')
+} else {
+    console.log('not good okay')
+}
+
+if (BigNumber === 70) {
+    console.log('isBest')
+} else {
+    console.log('not best')
+}
+
+if (BigNumber <= 70) {
+    console.log('all are okay')
+} else {
+    console.log('all not okay')
+}
+if (BigNumber => 70) {
+    console.log('comparison is good')
+} else {
+    console.log('comparison is not good okay')
+}
+
+
 
