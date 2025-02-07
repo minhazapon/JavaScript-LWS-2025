@@ -89,3 +89,29 @@ function Money(x, y, z) {
 }
 
 Money(100, 200, 300)
+
+function Values(a, b, c) {
+
+    let V1 = a * b * c
+    let v2 = V1 + 100
+    let v3 = v2 * 900
+    let v4 = v3 - 100
+    console.log(v4)
+
+    if (v4 > 1000) {
+        console.log('code thik ache')
+    } else {
+        console.log('code thik nei')
+    }
+
+}
+
+Values(1222, 23, 3)
+
+function all(w, e, r) {
+    let wer = w + e + r
+    return wer
+}
+
+let allZ = all(12, 23, 4)
+console.log(allZ)
