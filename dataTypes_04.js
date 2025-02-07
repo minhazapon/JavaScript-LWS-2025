@@ -81,7 +81,7 @@ console.log(weAreWhat)
 
 //function 
 
-let bangladesh = (a, b) => {
+function bangladesh(a, b) {
     let X = a + b
     console.log(X)
 }
