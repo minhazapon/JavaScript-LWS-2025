@@ -94,9 +94,9 @@ const Info = 'south asia'
 const years = 1971;
 const countryHelping = 'india'
 
-const countryInfo = ` bangladesh is a best country in this 
+const countryInfo = `bangladesh is a best country in this 
 world and this country is a super power in clothingText tiles 
 this located in ${Info} and this country got in dependent
- in ${years} and for independent ${countryHelping} had help us `
+ in ${years} and for independent ${countryHelping} had help us`
 
 console.log(countryInfo)
