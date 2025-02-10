@@ -160,3 +160,11 @@ const names = ["apon", "sabbir", "sopnil", "anas", "nahid"]
 const allNames = names.pop();
 
 console.log(allNames)
+
+//৩. unshift() – শুরুতে নতুন এলিমেন্ট যোগ করা
+
+let products = ["chal", "dal", 'ghee', 'butter', 'panir', 'ruti']
+
+products.unshift("tel")
+
+console.log(products)
