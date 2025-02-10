@@ -152,3 +152,11 @@ const skills = ['javaScript', 'react.js', 'next.js', 'DSA', 'problem solving']
 const s1 = skills.push("web development")
 
 console.log(skills)
+
+//২. pop() – শেষের এলিমেন্ট মুছে ফেলা
+
+const names = ["apon", "sabbir", "sopnil", "anas", "nahid"]
+
+const allNames = names.pop();
+
+console.log(allNames)
