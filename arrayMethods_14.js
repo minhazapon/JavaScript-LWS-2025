@@ -244,3 +244,9 @@ let ReNums = [1, 2, 3, 4, 5, 6]
 let allRe = ReNums.reduce((total, num) => total + num)
 
 console.log(allRe)
+
+//sort() – অ্যারে সাজানো (বড় থেকে ছোট বা ছোট থেকে বড়)
+
+let numberZ = [3, 7, 9, 1, 2, 4, 5, 6]
+
+console.log(numberZ.sort())
