@@ -236,3 +236,11 @@ let filterArray = [1, 2, 3, 4, 5, 6, 7]
 let filNumbers = filterArray.filter(fil => fil % 5 === 1)
 
 console.log(filNumbers)
+
+//১৩. reduce() – সব এলিমেন্টকে একত্রিত করে একটি মান তৈরি করা
+
+let ReNums = [1, 2, 3, 4, 5, 6]
+
+let allRe = ReNums.reduce((total, num) => total + num)
+
+console.log(allRe)
