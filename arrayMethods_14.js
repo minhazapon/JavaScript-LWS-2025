@@ -202,3 +202,10 @@ let b = [65, 345, 35, 5]
 let ab = a.concat(b)
 
 console.log(ab)
+
+//৮. indexOf() – নির্দিষ্ট মানের ইন্ডেক্স খুঁজে বের করা
+
+let fruts = ["apple", 'orange', 'jack', 'mango']
+
+console.log(fruts.indexOf("jack"))
+
