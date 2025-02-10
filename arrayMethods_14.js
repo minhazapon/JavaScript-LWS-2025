@@ -223,11 +223,16 @@ nums.forEach(a => { console.log(a + 9) })
 
 //১১. map() – প্রতিটি এলিমেন্টের উপর পরিবর্তন করে নতুন অ্যারে তৈরি করা
 
-
 let values = [2, 4, 6, 8, 10, 12, 14, 16]
 
 let NewValues = values.map(m => m * 1000)
 
 console.log(NewValues)
 
+//১২. filter() – নির্দিষ্ট শর্ত অনুযায়ী নতুন অ্যারে তৈরি করা
 
+let filterArray = [1, 2, 3, 4, 5, 6, 7]
+
+let filNumbers = filterArray.filter(fil => fil % 5 === 1)
+
+console.log(filNumbers)
