@@ -215,3 +215,10 @@ let ins = ["apon", "minhaz", "moutushi", "ponny"]
 
 console.log(ins.includes("ponny"))
 
+//১০. forEach() – প্রতিটি এলিমেন্টের উপর লুপ চালানো 
+
+let nums = [2, 4, 6, 8, 10, 12, 14, 16, 18]
+
+nums.forEach(a => { console.log(a + 9) })
+
+
