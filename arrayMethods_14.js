@@ -168,3 +168,11 @@ let products = ["chal", "dal", 'ghee', 'butter', 'panir', 'ruti']
 products.unshift("tel")
 
 console.log(products)
+
+//৪. shift() – শুরু থেকে এলিমেন্ট মুছে ফেলা
+
+let taka = ["1taka", '2taka', '3taka', '500taka']
+
+taka.shift()
+
+console.log(taka)
