@@ -74,7 +74,6 @@ const arrayNumber = new Array(12, 32434, 454, 455, 55)
 
 console.log(arrayNumber)
 
-
 const information = ["apon", "age:23", true, { country: 'bangladesh' }]
 
 console.log(information[0])
