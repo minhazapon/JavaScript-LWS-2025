@@ -176,3 +176,11 @@ let taka = ["1taka", '2taka', '3taka', '500taka']
 taka.shift()
 
 console.log(taka)
+
+//৫. splice() – নির্দিষ্ট স্থানে এলিমেন্ট যোগ বা মুছে ফেলা
+
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+numbers.splice(5, 5, 200)
+
+console.log(numbers)
