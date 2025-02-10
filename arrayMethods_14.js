@@ -209,3 +209,9 @@ let fruts = ["apple", 'orange', 'jack', 'mango']
 
 console.log(fruts.indexOf("jack"))
 
+//৯. includes() – কোনো মান আছে কিনা চেক করা 
+
+let ins = ["apon", "minhaz", "moutushi", "ponny"]
+
+console.log(ins.includes("ponny"))
+
