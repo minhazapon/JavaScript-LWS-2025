@@ -221,4 +221,13 @@ let nums = [2, 4, 6, 8, 10, 12, 14, 16, 18]
 
 nums.forEach(a => { console.log(a + 9) })
 
+//১১. map() – প্রতিটি এলিমেন্টের উপর পরিবর্তন করে নতুন অ্যারে তৈরি করা
+
+
+let values = [2, 4, 6, 8, 10, 12, 14, 16]
+
+let NewValues = values.map(m => m * 1000)
+
+console.log(NewValues)
+
 
