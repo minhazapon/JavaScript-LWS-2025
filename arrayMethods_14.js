@@ -191,4 +191,14 @@ let allNumbers = [2, 3, 5, 6, 8]
 
 let slicenumber = allNumbers.slice(2, 8)
 
-console.log(slicenumber) 
+console.log(slicenumber)
+
+//৭. concat() – দুটি অ্যারে একত্রিত করা
+
+let a = [12, 34, 55, 5]
+
+let b = [65, 345, 35, 5]
+
+let ab = a.concat(b)
+
+console.log(ab)
