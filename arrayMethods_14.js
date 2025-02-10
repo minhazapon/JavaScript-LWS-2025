@@ -184,3 +184,11 @@ let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 numbers.splice(5, 5, 200)
 
 console.log(numbers)
+
+//৬. slice() – নতুন অ্যারে তৈরি করা (পুরাতনটি পরিবর্তন না করে)
+
+let allNumbers = [2, 3, 5, 6, 8]
+
+let slicenumber = allNumbers.slice(2, 8)
+
+console.log(slicenumber) 
