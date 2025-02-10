@@ -250,3 +250,11 @@ console.log(allRe)
 let numberZ = [3, 7, 9, 1, 2, 4, 5, 6]
 
 console.log(numberZ.sort())
+
+//১৫. reverse() – অ্যারের ক্রম উল্টে দেওয়া
+
+let reverseZ = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+
+reverseZ.reverse();
+
+console.log(reverseZ)
